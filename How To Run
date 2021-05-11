@@ -1,0 +1,11 @@
+Windows - Install Python Here https://www.python.org/downloads/, And Open The Folder In Which The Pinger Is Found In, Then Click In The Directory And Type "cmd" (without "'s)
+Then Type The Following Python tcp.py "IP Address" -p "Port" (Enter) - Without "'s Of Course And The Pigner Should Begin To Ping On The Desired IP Address And Port. If You Need Help Contact Me At BLU3#7236 On Discord
+
+IP - Host to connect to
+-p - Which port to connect with
+-n Amount of times to probe the host (Leave Blank Default Is 1000 Probes)
+-t How long we should try to connect for until it returns an error (Leave Blank As Default)
+-s Delay until next TCP request (Leave Blank As Default)
+-l Constantly pinging the host (Even if number specified) (Leave Blank As Default)
+-4 Uses IPv4 (Leave Blank As Default)
+-6 Uses IPv6 (Leave Blank As Default)
